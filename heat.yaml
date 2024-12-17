@@ -6,7 +6,7 @@ resources:
   my_instance:
     type: OS::Nova::Server
     properties:
-      key_name: saubanov
+      key_name: 1
       image: ubuntu-20.04
       flavor: m1.small
       networks:
